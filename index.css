@@ -150,11 +150,14 @@ nav{
     .sec1{
         display: block;
     }
+    .secdiv1{
+        margin-left: -40px;
+    }
 
     .first-h2{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 68px;
-        font-weight: 600;
+        font-weight: bold;
         color: #000e42;
     }
     .img1{
@@ -179,7 +182,7 @@ nav{
     }
     p{
         font-size:2px;
-        position: absolute;
+        /* position: absolute; */
         font-weight: lighter;
         margin-top: -35px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -188,6 +191,7 @@ nav{
     }
     .button1{
         padding: 12px 25px;
+        margin-top: 120px;
     }
     .img1{
         width: 380px;
@@ -232,3 +236,33 @@ nav{
     font-weight: bold;
 }
 
+@media (max-width :1280px){
+    .sec2{
+        margin-left: 100px;
+    }
+}
+@media (max-width:1115px){
+    .sec2{
+        margin-right: 100px;
+    }
+}
+@media (max-width: 840px){
+    .card1{
+        display: block;
+    }
+    .card-img-top{
+        width: 50rem;
+    }
+}
+
+@media(max-width:428px){
+    .sec2{
+        margin-left: 50px;
+    }
+    /* .card1{
+        margin-left: -50px;
+    } */
+    .sec2h{
+        font-size: 30px;
+    }
+}
